@@ -1,0 +1,7 @@
+<p>
+  component1 works!
+</p>
+<input #textbox (keyup)=0 type="text" />
+<p>{{textbox.value}}</p>
+<!-- <button onclick="getUserName(textbox.value)">Enter</button> -->
+<button (click)="getUserName(textbox.value)">Enter</button>
